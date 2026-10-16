@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="crestGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e9d5c"/>
+      <stop offset="1" stop-color="#06391f"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 2 60 11v22c0 15-11.7 25-28 29C15.7 58 4 48 4 33V11z" fill="url(#crestGradient)" stroke="#d9a520" stroke-width="2.5"/>
+  <circle cx="32" cy="20" r="6.2" fill="#f0c14b"/>
+  <path d="M32 50V31" stroke="#f0c14b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 33c-7 0-12-4.6-12-10 4 1.6 8.4 2 12 4.4 3.6-2.4 8-2.8 12-4.4 0 5.4-5 10-12 10z" fill="#e7f4ec"/>
+  <path d="M20 50h24" stroke="#d9a520" stroke-width="3" stroke-linecap="round"/>
+</svg>

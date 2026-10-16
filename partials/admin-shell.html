@@ -1,0 +1,180 @@
+<div class="scrim" id="sidebarScrim" aria-hidden="true"></div>
+<div class="app-shell" id="appShell">
+  <aside class="sidebar" id="sidebar" aria-label="Admin navigation">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <img src="assets/img/gombe-crest.svg" alt="" />
+      </div>
+      <div>
+        <div class="brand-title">
+          Ministry of Environment<br />&amp; Forest Resources
+        </div>
+        <div class="brand-subtitle">Gombe State Government</div>
+      </div>
+    </div>
+    <div class="workspace-switch" aria-label="Current workspace">
+      <div class="workspace-emblem" aria-hidden="true">
+        <span style="font-size: 9px; font-weight: 800; letter-spacing: -0.3px"
+          >EF</span
+        >
+      </div>
+      <div class="workspace-copy">
+        <strong>Environment &amp; Forest Resources</strong
+        ><span>Gombe State · Demo workspace</span>
+      </div>
+      <span class="switch-chevron" aria-hidden="true">⌄</span>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav" aria-label="Main menu"></nav>
+    <div class="sidebar-bottom">
+      <div class="privacy-mini">
+        <svg
+          width="15"
+          height="15"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M12 3 20 6v5c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-3Z" />
+          <path d="m9 12 2 2 4-4" />
+        </svg>
+        <div>
+          <strong>Privacy-first prototype</strong>Sample records only. No live
+          ministry systems are connected.
+        </div>
+      </div>
+      <div class="sidebar-user">
+        <div class="avatar">EA</div>
+        <div class="sidebar-user-copy">
+          <strong>Environment Admin</strong><span>Administrator · demo</span>
+        </div>
+        <button
+          type="button"
+          data-action="profile-menu"
+          aria-label="Profile options"
+        >
+          <span aria-hidden="true">···</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+  <div class="main-area">
+    <header class="topbar">
+      <button
+        class="icon-button mobile-menu"
+        type="button"
+        id="mobileMenu"
+        aria-label="Open navigation"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+        >
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <div class="topbar-context">
+        <span>Ministry workspace</span><span class="context-separator">/</span
+        ><strong id="breadcrumb">Overview</strong>
+      </div>
+      <div class="topbar-spacer"></div>
+      <label class="search-box" aria-label="Search this workspace">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 4.5 4.5" />
+        </svg>
+        <input
+          id="globalSearch"
+          type="search"
+          placeholder="Search requests, projects, pages…"
+          autocomplete="off"
+          aria-label="Search requests, projects, pages"
+        />
+        <span class="search-shortcut" aria-hidden="true">⌘ K</span>
+      </label>
+      <div class="topbar-actions">
+        <button
+          class="icon-button"
+          type="button"
+          data-action="notifications"
+          aria-label="View notifications"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" />
+            <path d="M10 21h4" /></svg
+          ><span class="notification-dot"></span>
+        </button>
+        <button
+          class="profile-button"
+          type="button"
+          data-action="profile-menu"
+          aria-label="Open profile menu"
+        >
+          <span class="avatar">EA</span
+          ><span class="profile-copy"
+            ><strong>Environment Admin</strong><span>Demo workspace</span></span
+          ><svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m7 10 5 5 5-5" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="content" id="mainContent" tabindex="-1"></main>
+    <footer class="page-footer">
+      <span
+        >Gombe State Ministry of Environment &amp; Forest Resources · Admin
+        prototype</span
+      ><span class="footer-lock"
+        ><svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <rect x="4" y="10" width="16" height="11" rx="2" />
+          <path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg
+        >Local-only demo · Do not enter real citizen data</span
+      >
+    </footer>
+  </div>
+</div>
+<div id="modalRoot"></div>
+<div
+  class="toast-region"
+  id="toastRegion"
+  aria-live="polite"
+  aria-atomic="true"
+></div>

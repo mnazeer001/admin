@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#06391f" />
+    <title>Admin sign in · Gombe Environment</title>
+    <link rel="icon" href="assets/img/gombe-crest.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="login-screen" id="loginScreen">
+      <section
+        class="login-visual"
+        aria-label="Gombe environment workspace introduction"
+      >
+        <img src="assets/img/hero-1.jpg" alt="" />
+        <div class="login-visual-content">
+          <div class="login-brand-lockup">
+            <img class="login-crest" src="assets/img/gombe-crest.svg" alt="" />
+            <div>
+              <strong
+                >Ministry of Environment<br />&amp; Forest Resources</strong
+              ><small>Gombe State Government</small>
+            </div>
+          </div>
+          <div class="login-story">
+            <span class="login-kicker">A greener future for Gombe</span>
+            <h2>Protecting our environment,<br />greening our future.</h2>
+            <p>
+              Administrative workspace for public services, field operations and
+              the content that supports environmental stewardship across Gombe
+              State.
+            </p>
+          </div>
+          <div class="login-visual-footer">
+            <span>Environment Admin · Prototype</span
+            ><span>Green. Accountable. Community-led.</span>
+          </div>
+        </div>
+      </section>
+      <section class="login-panel" aria-labelledby="loginTitle">
+        <div class="login-form-wrap">
+          <span class="login-kicker">Demo workspace</span>
+          <h1 id="loginTitle">Admin sign in</h1>
+          <p>Continue to the local Gombe Environment admin preview.</p>
+          <div class="login-demo-note">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="4" y="10" width="16" height="11" rx="2" />
+              <path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg
+            ><span
+              ><strong>Frontend demo only.</strong> This screen does not
+              authenticate staff. Use placeholder values only—never enter a real
+              account password. Nothing is sent to a server or stored as a
+              credential.</span
+            >
+          </div>
+          <form id="loginForm" class="login-form" novalidate>
+            <div class="login-field">
+              <label for="loginEmail">Demo email</label
+              ><input
+                type="email"
+                id="loginEmail"
+                name="email"
+                placeholder="admin@example.invalid"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="login-field">
+              <label for="loginPassword">Demo password</label
+              ><input
+                type="password"
+                id="loginPassword"
+                name="password"
+                placeholder="Enter any demo-only text"
+                autocomplete="off"
+                required
+              />
+            </div>
+            <button class="login-submit" type="submit">
+              Enter demo workspace
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+          </form>
+          <p
+            class="login-message"
+            id="loginMessage"
+            role="status"
+            aria-live="polite"
+            hidden
+          ></p>
+          <p class="login-footnote">
+            A syntactically valid email and non-empty password opens the demo.
+            Values are cleared immediately; identity and password are not
+            verified.
+          </p>
+          <a
+            class="login-public-link"
+            href="https://mnazeer001.github.io/gombe_environment/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View the public website
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M14 4h6v6M20 4l-9 9" />
+              <path
+                d="M18 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5"
+              /></svg
+          ></a>
+        </div>
+        <footer class="login-panel-footer">
+          <span>Gombe State · Environment &amp; Forest Resources</span
+          ><span
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="4" y="10" width="16" height="11" rx="2" />
+              <path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg
+            >Local-only preview</span
+          >
+        </footer>
+      </section>
+    </div>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
